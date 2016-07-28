@@ -1,0 +1,15 @@
+Package: com.ulissesms.infiniloader
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: ulissesms
+Depends: winterboard
+Filename: ./debs/com.ulissesms.infiniloader_1.0.3_iphoneos-arm.deb
+Size: 151650
+MD5sum: 4487a038a5d8ca9617387c51635c0813
+SHA1: 7edb84ecba77ced5cac3ddc4808827b88092f951
+SHA256: 632fc5a070c2b9ce9d5124179730d4f022a4bbe0db1e9aed4ef05a94c4c3a1e8
+Section: Themes (SpringBoard)
+Description: This is an animation loader that appears as though it is a circle unraveling infinitely.
+Author: ulissesms <contato@ulissess.com.br>
+Name: InfiniLoader
+
