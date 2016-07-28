@@ -11,7 +11,7 @@ SHA1: 587d8f2fb5d4c0d7f1b043bfc7ca9c930acf864b
 SHA256: c2df5cf1fd879e1140ff209546ba4d80fe11bb88381276068c5f8506fd41a568
 Size: 966
 Filename: debs/com.ulissesms.devrepos_1.0.0_iphoneos-arm.deb
-Depiction: http://ulissesms.github.io/depictions/?p=com.ulissesms.devrepos
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.devrepos
 
 Package: com.ulissesms.infiniloader
 Name: InfiniLoader
@@ -27,5 +27,5 @@ SHA1: cda13d843725864489816d517ec7064a02d9349e
 SHA256: ec6fc9e613308d0621180c3f1b26a94af3df4d116686ad0201a1d87b49fbbb08
 Size: 151650
 Filename: debs/com.ulissesms.infiniloader_1.0.3_iphoneos-arm.deb
-Depiction: http://ulissesms.github.io/depictions/?p=com.ulissesms.infiniloader
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.infiniloader
 
