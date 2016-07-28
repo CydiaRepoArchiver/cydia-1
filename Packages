@@ -6,7 +6,7 @@ Description: Adds essential repositories so they don’t need to be added manual
 Maintainer: ulissesms
 Author: ulissesms
 Section: Utilities
-MD5sum: 
+MD5sum: 8bb0b53f0d5277335fbccbbce838b44d
 SHA1: 587d8f2fb5d4c0d7f1b043bfc7ca9c930acf864b
 SHA256: c2df5cf1fd879e1140ff209546ba4d80fe11bb88381276068c5f8506fd41a568
 Size: 966
@@ -22,7 +22,7 @@ Description: This is an animation loader that appears as though it is a circle u
 Maintainer: ulissesms
 Author: ulissesms <contato@ulissess.com.br>
 Section: Themes (SpringBoard)
-MD5sum: 
+MD5sum: cb37d37bfddf08945a39b5d8a1ee09c4
 SHA1: cda13d843725864489816d517ec7064a02d9349e
 SHA256: ec6fc9e613308d0621180c3f1b26a94af3df4d116686ad0201a1d87b49fbbb08
 Size: 151650
