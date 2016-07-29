@@ -1,0 +1,9 @@
+Package: com.ulissesms.ls-elemental
+Name: Elemental LS
+Version: 1.1.6
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Previously, LS Basic Clock, this very customizable clock will fit the wants and needs of anyone who desires simplicity.
+Maintainer: ulissesms <dev.contato@ulissesms.com.br>
+Author: ulissesms <dev.contato@ulissesms.com.br>
+Section: Themes (Lockscreen)

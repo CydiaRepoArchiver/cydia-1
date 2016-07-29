@@ -1,0 +1,20 @@
+{
+	"name": "Provenance",
+	"package": "com.jamsoftonline.provenance",
+	"author": "James Addyman",
+	"version": "1.2",
+	"description": "An iOS Frontend for multiple emulators",
+	"changelog": {
+		"1.0.0": [
+			"Initial Release"
+		],
+		"1.2": [
+			"Many updates were added from the initial release.",
+            "Consult the Github repository which can be found here: <a href=\"https://github.com/jasarien/Provenance\" target=\"_blank\">Provenance On Github</a>"
+		]
+	},
+	"compatibility": {
+		"min-version": "7.0.1",
+		"max-version": "8.4"
+	}
+}
