@@ -6,27 +6,107 @@ Description: This is working on my device the way I bundled it. I am curious to 
 Maintainer: James Addyman
 Author: James Addyman
 Section: Games
-MD5sum: 5cef293f218050c5aa5df35b5202218b
-SHA1: bc643a0183c5b113e271094dee348bc8c8e4086c
-SHA256: 2f361490d6be76fef30f4d5e53bcade585e0ef08079d7064f32dcd22866c741f
+MD5sum: cdb62c9fd71f0bdb1010e626720d3a02
+SHA1: e9532c146333a5aa52ee8e833f3dbb6e46256d86
+SHA256: 277af7d642592a51bf1118cfd0ad79c67a02626ed7a4f45c4cbe9dc2f8e39693
 Size: 13728304
 Filename: debs/com.jamsoftonline.provenance_1.2_iphoneos-arm.deb
 Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.jamsoftonline.provenance
 
+Package: com.ulissesms.android-m-ls
+Name: Android M LS
+Version: 1.4.4
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Adds a simple Android M inspried clock and date with the options to change clock color, date color, 12 or 24 hour clock, font-family (Which can be one of the following: 'Roboto-Regular', 'Roboto-Medium', 'Roboto-Thin', or 'Roboto-Light'), and the position from the top of the screen.
+Maintainer: ulissesms <dev.ulissesms@gmail.com>
+Author: ulissesms <dev.ulissesms@gmail.com>
+Section: Themes (Lockscreen)
+MD5sum: f200d7822531b63c97d24806194b5334
+SHA1: de4899918806431627745a62e176e1bf9365bb94
+SHA256: 2a1e3891c2e5443786b77fb50a2d730cb2fb7714c2a466a5794128b0740055d1
+Size: 6860818
+Filename: debs/com.ulissesms.android-m-ls_1.4.4_iphoneos-arm.deb
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.android-m-ls
+
 Package: com.ulissesms.devrepos
 Name: Repository List
-Version: 1.0.0
+Version: 1.2.2
 Architecture: iphoneos-arm
 Description: Adds essential repositories so they don’t need to be added manually. Private use only.
 Maintainer: ulissesms
 Author: ulissesms
 Section: Utilities
-MD5sum: 8bb0b53f0d5277335fbccbbce838b44d
-SHA1: 587d8f2fb5d4c0d7f1b043bfc7ca9c930acf864b
-SHA256: c2df5cf1fd879e1140ff209546ba4d80fe11bb88381276068c5f8506fd41a568
+MD5sum: d046dee1f813c3f24f6b244651a38bae
+SHA1: 5feea7938014cfcf7afc6359b4e760852b771ce5
+SHA256: 5777ac17d0d488b346a799b4bf638526557537d09104f9083e9eb132d5ced3b2
 Size: 966
-Filename: debs/com.ulissesms.devrepos_1.0.0_iphoneos-arm.deb
+Filename: debs/com.ulissesms.devrepos_1.2.2_iphoneos-arm.deb
 Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.devrepos
+
+Package: com.ulissesms.infiniboot4
+Name: InfiniBoot4
+Version: 1.0.1
+Architecture: iphoneos-arm
+Depends: com.zaxdo.animate8
+Description: InfiniBoot4 for iPhone 4/4s is a beautiful boot logo that mesmerizes you as you boot your phone up making the long wait time seem as though it went by in just seconds.
+Maintainer: superp0s
+Author: superp0s
+Section: Addons (BootLogo)
+MD5sum: 4f9981c887bae8306db3b18dce709bd7
+SHA1: 749e9212f1fc10a02f9b0b2e7aa8b98528f5aec6
+SHA256: d94bde6f5c7394ff05b68fa43fdcbc8ab136b15bb05d76277b3def6005a0e4c7
+Size: 4394998
+Filename: debs/com.ulissesms.infiniboot4_1.0.1_iphoneos-arm.deb
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.infiniboot4
+
+Package: com.ulissesms.infiniboot5
+Name: InfiniBoot5
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: com.zaxdo.animate8
+Description: InfiniBoot5for iPhone 5/5s/5c is a beautiful boot logo that mesmerizes you as you boot your phone up making the long wait time seem as though it went by in just seconds.
+Maintainer: ulissesms
+Author: ulissesms
+Section: Addons (BootLogo)
+MD5sum: 05ec5baba9fe5593fbd339126f7a5231
+SHA1: 6bd2dc05fc67102f0862251b93f7ae5fdfa743d2
+SHA256: 69f11b408155ffb15c71c0d8685cdbd48755069e58aeb23a37893e3e117e88cb
+Size: 4425402
+Filename: debs/com.ulissesms.infiniboot5_1.0_iphoneos-arm.deb
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.infiniboot5
+
+Package: com.ulissesms.infiniboot6
+Name: InfiniBoot6
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: com.zaxdo.animate8
+Description: InfiniBoot6 for iPhone 6 is a beautiful boot logo that mesmerizes you as you boot your phone up making the long wait time seem as though it went by in just seconds.
+Maintainer: ulissesms
+Author: ulissesms
+Section: Addons (BootLogo)
+MD5sum: 43453dc0b1a9fae2b7fef35af902f5af
+SHA1: c049237457e46f6e96b2c62bf20b8813119fe5f8
+SHA256: e43163fee59c288cb002e3c3f31798808305e3952f5fe2ff85c0a5827117eb37
+Size: 4484690
+Filename: debs/com.ulissesms.infiniboot6_1.0_iphoneos-arm.deb
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.infiniboot6
+
+Package: com.ulissesms.infiniboot6plus
+Name: InfiniBoot6+
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: com.zaxdo.animate8
+Description: InfiniBoot6+ for iPhone 6 Plus is a beautiful boot logo that mesmerizes you as you boot your phone up making the long wait time seem as though it went by in just seconds.
+Maintainer: ulissesms
+Author: ulissesms
+Section: Addons (BootLogo)
+MD5sum: 9775ca1390dadec1055236acac522928
+SHA1: 68aec442f804bc73a8864fdbdf13f36e7abb4cb6
+SHA256: 2b2423c3bdb6b0886ed21601579b80ca8837d1abba2bbb89dec15c12bfee2894
+Size: 4806368
+Filename: debs/com.ulissesms.infiniboot6plus_1.0_iphoneos-arm.deb
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.infiniboot6plus
 
 Package: com.ulissesms.infiniloader
 Name: InfiniLoader
@@ -35,12 +115,60 @@ Architecture: iphoneos-arm
 Depends: winterboard
 Description: This is an animation loader that appears as though it is a circle unraveling infinitely.
 Maintainer: ulissesms
-Author: ulissesms <contato@ulissess.com.br>
+Author: ulissesms <contato@ulissesms.com.br>
 Section: Themes (SpringBoard)
-MD5sum: cb37d37bfddf08945a39b5d8a1ee09c4
-SHA1: cda13d843725864489816d517ec7064a02d9349e
-SHA256: ec6fc9e613308d0621180c3f1b26a94af3df4d116686ad0201a1d87b49fbbb08
-Size: 151650
+MD5sum: 33468411641a2466a4b801e36d4692fa
+SHA1: b4b37ad85712607d1214159f9f3dc2569307553c
+SHA256: 584b842bbda89450af5e1ca9a847671329634b9969609b195d4121fa49c06175
+Size: 151640
 Filename: debs/com.ulissesms.infiniloader_1.0.3_iphoneos-arm.deb
 Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.infiniloader
+
+Package: com.ulissesms.ls-elemental
+Name: Elemental LS
+Version: 1.1.6
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Previously, LS Basic Clock, this very customizable clock will fit the wants and needs of anyone who desires simplicity.
+Maintainer: ulissesms <dev.contato@ulissesms.com.br>
+Author: ulissesms <dev.contato@ulissesms.com.br>
+Section: Themes (Lockscreen)
+MD5sum: dccf09642f968d6fb3aed4c8d4af47c8
+SHA1: c2992130bf0f904e212ab2487519d72c0f0c6ac1
+SHA256: 7d1f08166cb838f31b2ee277f5ac225c8b77b41bd743107f9d47b42a1903bdef
+Size: 300916
+Filename: debs/com.ulissesms.ls-elemental_1.1.6_iphoneos-arm.deb
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.ls-elemental
+
+Package: com.ulissesms.personalpackages
+Name: Personal Packages
+Depends: com.fortysixandtwo.alkaline, org.thebigboss.appcolorclose, com.mileskabal.appinfo, com.saurik.afc2d, net.angelxwind.appsyncunified, com.rbt.batterylife, com.efrederickson.batteryusageenhancer, com.hackyouriphone.bdayspotify, com.hackyouriphone.betterwifi7, com.myrepospace.wmuff.ccclockopentoalarm8, com.noeliel.cheesecake, com.sull.colorkeyboardforios7, com.r333d.cylinder, com.hackyouriphone.ifile, org.thebigboss.gridswitcher, com.cpdigitaldarkroom.hideme8-lite, com.exile90.icleanerpro, com.codethemed.iconbundles, com.ichitaso.mobileterminal, com.evilgoldfish.lockglyph, ws.hbang.lockkeyboardbeta-2, net.angelxwind.mikoto, com.reddestdream.minimalhostsblocker, com.modmyi.minimalios8, com.tylr.mobius, com.hackyouriphone.muze, org.ilendsoft.no-percent-sign, com.pnre.noannoyance, com.greeny.notracking, openssh, org.thebigboss.photoinfo, com.efrederickson.powersaver, com.dpkgdan.powertap, com.efrederickson.reachapp, com.modmyi.rechrgforalkaline, org.thebigboss.smoothcursor, org.thebigboss.smoothpop, com.modmyi.softkeysounds, com.hackyouriphone.swipeexpander, winterboard, org.thebigboss.zanillatheme, com.myrepospace.superp0s.zanilla
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Adds essential packages so they do not need to be added manually, personal use only.
+Maintainer: ulissesms
+Author: ulissesms
+Section: Utilities
+MD5sum: 47876fcd6204e93f6c12a1a491389229
+SHA1: e42b0edbd24fe2207c5446058c675a51bb893480
+SHA256: bf6d38c849c308bff7098526a06f491b9468a92e3562854839a6336656e3647d
+Size: 1150
+Filename: debs/com.ulissesms.personalpackages_2.0_iphoneos-arm.deb
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=com.ulissesms.personalpackages
+
+Package: ws.hbang.lockkeyboardbeta-2
+Name: LockKeyboard Beta 2
+Depends: mobilesubstrate, firmware (>= 7.1)
+Architecture: iphoneos-arm
+Description: Lock screen style keyboard everywhere. This is a save of beta 2 for ease of installation
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Tweaks
+Version: 1.0~beta2
+MD5sum: 639013bc8de7dbdc8800405e69de11a4
+SHA1: 244be71f0fbe9933d938bcfe60d1013d30113e7f
+SHA256: e8d37adb090b424af6cb9a56601b9e5f4ca161e80dc62e96178522f9b7ac8324
+Size: 4816
+Filename: debs/ws.hbang.lockkeyboardbeta-2_1.0~beta2_iphoneos-arm.deb
+Depiction: http://ulissesmarcondes.github.io/depictions/?p=ws.hbang.lockkeyboardbeta-2
 

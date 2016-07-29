@@ -5,5 +5,5 @@ Architecture: iphoneos-arm
 Depends: winterboard
 Description: This is an animation loader that appears as though it is a circle unraveling infinitely.
 Maintainer: ulissesms
-Author: ulissesms <contato@ulissess.com.br>
+Author: ulissesms <contato@ulissesms.com.br>
 Section: Themes (SpringBoard)
