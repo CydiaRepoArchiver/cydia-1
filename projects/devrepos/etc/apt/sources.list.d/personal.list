@@ -1,4 +1,3 @@
-deb http://apt.steverolfe.com/ ./
 deb http://arcetera.github.io ./
 deb http://chewitt.me/repo/ ./
 deb http://coolstar.org/publicrepo/ ./
@@ -10,10 +9,11 @@ deb http://getdelta.co/ ./
 deb http://nvahren.github.io/cydia/ ./
 deb http://pw5a29.github.io/ ./
 deb http://repo.cpdigitaldarkroom.com/ ./
-deb http://repo.cydro.us/ ./
 deb http://repo.hackyouriphone.org/ ./
-deb http://repo.maxkatzmann.us ./
 deb http://repo.pnre.co/ ./
 deb http://repo.thireus.com/ ./
 deb http://repo.tylercasson.com/ ./
 deb http://rpetri.ch/repo/ ./
+deb http://cydia.pocketmine.net/ ./
+deb http://repo.rpdev.info/ ./
+deb http://500pd.github.io/cydia/ ./
