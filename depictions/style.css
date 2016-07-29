@@ -1,12 +1,6 @@
 body {
     background: #efeff4;
 }
-p {
-    word-wrap: break-word;
-    max-width: 250px;
-    margin: auto;
-    font-size: 80%;
-}
 .screenshots {
     display: none;
 }
@@ -15,12 +9,6 @@ p {
 }
 .latest-version {
     vertical-align: right;
-}
-.remove {
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -7px;
-    border-radius: 0 !important;
 }
 .remove-space {
     margin-left: -10px;
@@ -31,13 +19,8 @@ p {
 .remove-big {
     margin-bottom: -32px;
 }
-.center {
-    margin-left: auto;
-    margin-right: auto;
-}
 .card {
     background: #FFFFFF;
-    max-width: 340px;
 }
 .card-header,
 .card-block {

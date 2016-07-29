@@ -1,8 +1,8 @@
-Origin: ulissesms Public Repo
-Label: ulissesms's Public Repository
+Origin: Bangarang Repo
+Label: Bangarang Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: ulissesms Public Repo 
+Description: Bangarang Cydia Repository Example

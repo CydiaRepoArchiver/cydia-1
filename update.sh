@@ -63,7 +63,7 @@ if [[ $1 == *"p"* || $1 == *"a"* ]]; then
         shasum -a 256 "$deb" | echo "SHA256: $(awk '{ print $1 }')" >> Packages
         wc -c "$deb" | echo "Size: $(awk '{ print $1 }')" >> Packages
         echo "Filename: $deb" >> Packages
-        dpkg-deb -f "$deb" Packages |  echo "Depiction: http://ulissesmarcondes.github.io/depictions/?p=$(dpkg-deb -f $deb Package)" >> Packages
+        dpkg-deb -f "$deb" Packages |  echo "Depiction: $(head -n 1 SITENAME)/depictions/?p=$(dpkg-deb -f $deb Package)" >> Packages
         echo "" >> Packages
     done
 
@@ -75,14 +75,11 @@ fi
 
 if [[ $1 == *"u"* || $1 == *"a"* ]]; then
     git add -A
+    now=$(date +"%r %D")
 
-    if [ -z "$2" ]; then
-        now=$(date +"%r %D")
-        git commit -m "Repo Updates - $now"
-    else
-        git commit -m "${*:2}"
-    fi
+    # TODO: ADD ABILITY FOR CUSTOM COMMIT, i.e. everything after arg $1 is commit message
 
+    git commit -m "Repo Updates - $now"
     git push
     echo "Updated Github repository"
 fi

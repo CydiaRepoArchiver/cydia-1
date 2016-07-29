@@ -1,7 +1,9 @@
 $(document).ready(function() {
     // Get the packageID from the URL
     var packageID = getParameterByName("p");
+
     var deviceVersion = navigator.userAgent;
+    console.log(deviceVersion);
 
     // If no packageID is available, display an error message
     if (!packageID) {
@@ -22,7 +24,7 @@ $(document).ready(function() {
         var changes = data.changelog[data.version];
         for (var c in changes) {
             var change = changes[c];
-            cList.append("<li><p>" + change + "</p></li>")
+            cList.append("<li>" + change + "</li>")
         }
 
         $(".screenshots-header").click(function() {
@@ -33,17 +35,15 @@ $(document).ready(function() {
 
         var count = 0;
         var screenshots = data.screenshots;
-        if (screenshots) {
-            var sKeys = Object.keys(screenshots);
-            for (var s in sKeys) {
-                var screenshot = sKeys[s];
-                if (count % 2 === 0) {
-                    $(".screenshots").append("<div class=\"subshots col-xs-12\"></div>");
-                }
-                // $(".screenshots .subshots:last-child").append("<div class=\"col-xs-6\"><img class=\"img-responsive\" src=\"screenshots/" + packageID + "/" + screenshot + "\" title=\"" + screenshots[screenshot] + "\"><p>" + screenshots[screenshot] + "</p><br></div>");
-                $(".screenshots .subshots:last-child").append("<div class=\"col-xs-6\"><a href=\"screenshots/" + packageID + "/" + screenshot + "\" target=\"_blank\"><img class=\"img-responsive\" src=\"screenshots/" + packageID + "/" + screenshot + "\" title=\"" + screenshots[screenshot] + "\"></a><p>" + screenshots[screenshot] + "</p><br></div>");
-                count++;
+        var sKeys = Object.keys(screenshots);
+        for (var s in sKeys) {
+            var screenshot = sKeys[s];
+            if (count % 2 === 0) {
+                $(".screenshots").append("<div class=\"subshots col-xs-12\"></div>");
             }
+            // $(".screenshots .subshots:last-child").append("<div class=\"col-xs-6\"><img class=\"img-responsive\" src=\"screenshots/" + packageID + "/" + screenshot + "\" title=\"" + screenshots[screenshot] + "\"><p>" + screenshots[screenshot] + "</p><br></div>");
+            $(".screenshots .subshots:last-child").append("<div class=\"col-xs-6\"><a href=\"screenshots/" + packageID + "/" + screenshot + "\" target=\"_blank\"><img class=\"img-responsive\" src=\"screenshots/" + packageID + "/" + screenshot + "\" title=\"" + screenshots[screenshot] + "\"></a><p>" + screenshots[screenshot] + "</p><br></div>");
+            count += 1;
         }
 
         $(".fullchangelog-header").click(function() {
@@ -51,17 +51,11 @@ $(document).ready(function() {
             });
             $(".turn").toggleClass("left");
         });
-
         var latest = data.version;
         var versions = Object.keys(data.changelog).reverse();
-        count = 0;
         for (var v in versions) {
             var version = versions[v];
-            if (count === 0) {
-                var card = $("<div class=\"card remove\"></div>");
-            } else {
-                var card = $("<div class=\"card remove-space\"></div>");
-            }
+            var card = $("<div class=\"card remove-space\"></div>");
             card.append(" <div class=\"card-header\">" + version + "</div>");
             card.append(" <div class=\"card-block changelog-list\"></div>");
             if (version === latest) {
@@ -70,15 +64,14 @@ $(document).ready(function() {
             var changes = data.changelog[version];
             for (var c in changes) {
                 var change = changes[c];
-                card.find(".changelog-list").append("<li><p>" + change + "</p></li>");
+                card.find(".changelog-list").append("<li>" + change + "</li>");
             }
             $(".package-versions").append(card);
-            count++;
         }
     })
     .fail(function() {
         $(".package-error").text("An error occurred while retrieving package info!").css("display", "block");
-        $(".package-name").text("Repository Error").css("color", "red");
+        $(".package-name").text("Repository Error");
         return;
     });
     function getParameterByName(name) {
